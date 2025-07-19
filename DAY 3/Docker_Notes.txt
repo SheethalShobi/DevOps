@@ -53,5 +53,5 @@ docker run hello-world
 docker run -it ubuntu /bin/bash (Running interactively)
 docker ps -a
 docker stop container_name
-docker exec -it container_name /bin/bas (entering the container)
+docker exec -it container_name /bin/bash (entering the container)
 docker rm container_name
