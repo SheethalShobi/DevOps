@@ -37,3 +37,5 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
 While installing docker,we get a client as well as deamon(running background process).Windows has UI based tools but for linux it won't have,so these clients are embedded within the terminal in linux.     
+
+
