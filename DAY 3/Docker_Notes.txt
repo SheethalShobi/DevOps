@@ -38,4 +38,20 @@ sudo sh get-docker.sh
 
 While installing docker,we get a client as well as deamon(running background process).Windows has UI based tools but for linux it won't have,so these clients are embedded within the terminal in linux.     
 
+COMMANDS
+========
+Image related:
+docker images or docker image ls
+docker pull ubuntu
+docker search ubuntu
+docker rmi image_name
+docker build -t my-app
+docker history image_name
 
+Container related:
+docker run hello-world
+docker run -it ubuntu /bin/bash (Running interactively)
+docker ps -a
+docker stop container_name
+docker exec -it container_name /bin/bas (entering the container)
+docker rm container_name
