@@ -15,6 +15,7 @@ Characteristics:
 * Portability
 * Lower deployment time
 
+==========================================   
 Important Docker Concepts: mage,Container,Volumes,Networking
 
 Docker Image:
@@ -29,3 +30,8 @@ Docker: Lightweight, shares kernel with host
 Docker is written to run on Linux kernel
 Docker image contains all things necessary for running the app
 Hypervisor: software to create/manage VMs
+
+===============================
+To install Docker :
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
