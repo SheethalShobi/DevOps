@@ -1,0 +1,21 @@
+Steps 
+=======
+1. Creating a folder : mkdir python-app
+2. cd python-app
+3. Creating sample app : nano app.py (using nano editor)
+4. touch file.txt and print("Hello from inside a Docker container!")
+Save and exit (Ctrl+O, Enter, Ctrl+X)
+5. Inside python-docker-app/: nano Dockerfile
+FROM python:3.10-slim
+COPY app.py /app.py
+CMD ["python", "/app.py"]
+6. Building image :docker build -t sheethalshobi/python-trial:latest  (latest- tagname)
+7. Login to Docker Hub : docker login -u sheethalshobi
+8. docker push sheethalshobi/python-hello:latest
+
+Verification:
+Repo name: python-hello
+Tag: latest
+Pull command: docker pull sheethalshobi/python-trial
+
+
